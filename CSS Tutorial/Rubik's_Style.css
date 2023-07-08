@@ -1,0 +1,135 @@
+*{
+    margin-bottom: 0%;
+}
+body{
+    background-color: rgb(6, 6, 45);
+    color: rgb(182, 179, 179);
+    margin: 0%;
+}
+nav{
+    background-color: black;
+    display: block;
+    position: relative;
+}
+.web{
+    text-align: center;
+    width: 7em;
+    display: inline-block;
+    color: whitesmoke;
+    margin-left: 20rem;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 3.5rem;
+}
+.heading{
+    background-color: black;
+    text-align: center;
+    width: 7em;
+    border-radius: 5%;
+    border-left: 0.17em rgb(44, 43, 43) solid;
+    border-top: 0.17em rgb(44, 43, 43) solid;
+    display: inline-block;
+    margin-top: 0.5em;
+    margin-bottom: 0.2em;
+}
+#pic{
+    width: 2.5rem;
+    margin-bottom: -0.5em;
+    display: inline-block;
+    border-radius:20%;
+}
+#search{
+    background-color:lightgrey;
+    margin-left: 19rem;
+    width: 10rem;
+    transform: translateY(-0.5em);
+}
+button{
+    background-color: rgb(7, 7, 60);
+    color: lightgrey;
+    width: 5rem;
+    border-left: 0.3em rgb(56, 56, 56) solid;
+    border-top: 0.2em rgb(56, 56, 56) solid;
+    position: relative;
+    top: -0.35em;
+    transition: all 0.2s;
+}
+.buton:hover{
+    background-color: rgb(25, 25, 111);
+    cursor: pointer;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em white;
+    transform: translateY(-0.2em);
+}
+#subtitle{
+    background-color: rgb(1, 1, 33);
+    margin-top: 0.2em;
+    font-size: small;
+    margin-left: 1rem;
+    color: rgb(136, 135, 135);
+}
+#image{
+    width: 12rem;
+    margin-left: 5rem;
+    position: relative;
+    top: 0.5rem;
+}
+#image:hover{
+    background-color: rgb(25, 25, 111);
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em white;
+}
+#start{
+    width: 75rem;
+    display: inline-block;
+    margin-left: 0.2rem;
+    border-left: 0.5rem solid black;
+    background-color: rgb(6, 6, 33);
+}
+section h2{
+    background-color: rgb(5, 2, 21);
+    border: black solid 0.1rem;
+    margin-bottom: 0.8%;
+    padding-left: 0.2rem;
+}
+section h3{
+    margin-left: 0.2rem;
+    font-size: 1.2em;
+    background-color: rgb(7, 0, 23);
+    width: fit-content;
+}
+section p{
+    margin-left: 0.2rem;
+    border-left: 0.5rem solid black;
+    background-color: rgb(6, 6, 33);
+}
+table{
+    margin-left: 0.2rem;
+    border: 0.2rem solid black;
+    background-color: rgb(6, 6, 33);
+    text-align: center;
+    margin-bottom: 1em;
+}
+#table_head{
+    margin-left: 0.2rem;
+    margin-bottom: 0.5em;
+    display: inline-block;
+    background-color: black;
+}
+ul{
+    border: 0.2rem solid black;
+    background-color: rgb(6, 6, 33);
+}
+.random{
+    padding-left: 0.2em;
+    margin-bottom: 1em;
+}
+.foot{
+    background-color: black;
+    color: whitesmoke;
+    padding-bottom: 1rem;
+    padding-left: 0.2em;
+    border-top: 0.1rem solid white;
+    font-size: small;
+    padding-bottom: 2em;
+}
