@@ -2,8 +2,8 @@
     margin-bottom: 0%;
 }
 body{
-    background-color: rgb(6, 6, 45);
-    color: rgb(182, 179, 179);
+    background-color: rgb(33, 33, 44);
+    color: rgb(222, 219, 219);
     margin: 0%;
 }
 nav{
@@ -69,15 +69,21 @@ button{
     color: rgb(136, 135, 135);
 }
 #image{
+    display: inline-block;
     width: 12rem;
-    margin-left: 5rem;
-    position: relative;
-    top: 0.5rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    overflow: hidden;
 }
-#image:hover{
-    background-color: rgb(25, 25, 111);
-    color: white;
-    box-shadow: 0 0.5em 0.5em -0.4em white;
+#image img{
+    max-width: 12rem;
+    display: block;
+    width: 100%;
+    transition: all 0.5s;
+    transform: scale(1.0);
+}
+#image img:hover{
+    transform: scale(1.2);
 }
 #start{
     width: 75rem;
