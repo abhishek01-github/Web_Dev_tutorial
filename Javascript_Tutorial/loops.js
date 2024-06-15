@@ -1,4 +1,4 @@
-let ans = 10;
-for(let i of ans){
-    console.log(i)
+let num = 5;
+for(let i=5;i>=0;i--){
+    console.log(num*i);
 }
