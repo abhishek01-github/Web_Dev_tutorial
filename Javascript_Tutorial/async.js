@@ -1,5 +1,9 @@
-const fs = require("fs")
-fs.readFile("database.txt", "utf-8", function(err, data){
-    console.log(data);
-})
-console.log("Hii there!!")
+async function fn(arr)
+{
+   for(let i=0;i<100000;i++)
+       arr.push(i);
+}
+
+let arr=[];
+fn(arr);
+console.log(arr);
